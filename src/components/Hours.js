@@ -120,7 +120,7 @@ export default function Hours() {
 
 
      if( slider.scrollLeft  > 1400 ){
-      slider.scrollLeft = slider.scrollLeft - 1200
+      slider.scrollLeft = slider.scrollLeft - 1700
      }
  
      
