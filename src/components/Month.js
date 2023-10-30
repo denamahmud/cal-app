@@ -145,7 +145,7 @@ export default function Month() {
                 <div key={item.id} className= { `mr-[80px] p-2 ${activeId === item.id ?
                  "text-blue-500 scale-[1.2] " : " text-gray-600"}  ` } onClick={() => setActiveId(item.id)}>
                      <p className={`${activeId === item.id ? 'text-blue-500': 'text-gray-500'} text-lg`}> {item.name}</p>
-                     <p className="text-2xl sm:text-md text-center "> {index + 1}</p>
+                     <p className="text-2xl md:text-md text-center "> {index + 1}</p>
                 </div>
               ))
            
