@@ -129,7 +129,7 @@ export default function Hours() {
  
  
   return (
-     <div id='slider' className='flex horizontal-scroll-wrapper   cursor-grab overflow-x-scroll scroll scroll-smooth h-[520px] z-40 w-full mx-auto' onMouseDown={grapping1 } > 
+     <div id='slider' className='flex horizontal-scroll-wrapper   cursor-grab overflow-x-scroll scroll scroll-smooth h-[520px] z-40 w-full mx-auto' onDragStart={grapping1 } > 
         <div >
                 <div className='fixed top-[99.9px] bg-white  flex w-20 h-20'>
                   <div className='shadow-md bg-white rounded-full p-1 absolute'>
