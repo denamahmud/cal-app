@@ -114,7 +114,7 @@ export default function Hours() {
   
  
   return (
-     <div className='flex horizontal-scroll-wrapper h-screen z-40 w-11/12 mx-auto -mt-16'  > 
+     <div className='flex horizontal-scroll-wrapper h-[550px] z-40 w-11/12 mx-auto '  > 
         <div className='px-10'>
                 <div className='fixed top-24 left-5 z-10 flex w-20 h-40'>
                   <div className='shadow-md bg-white rounded-full p-1 absolute'>

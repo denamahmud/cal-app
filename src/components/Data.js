@@ -28,7 +28,7 @@ function Data({ bgColor1, bgColor2, bgColor3 , bgColor4 }) {
 
   return (
     <div className=' px-10 relative flex flex-col'>
-          <div className='w-[3000px] flex h-24 border-y border-lightGray'>
+          <div className='w-[3500px] flex h-24 border-y border-lightGray'>
               <div className= 'absolute mx-4 my-2 text-white z-10 stylebox1' >
                         <div className={`h-full w-full ${show1 ? 'ml-32' : 'ml-0'} duration-300 absolute rounded-full flex items-center justify-end px-4 py-2 `} style={{ backgroundImage : bgColor1, opacity : 0.6}}>
                               <p>Surgery at</p>
@@ -95,7 +95,7 @@ function Data({ bgColor1, bgColor2, bgColor3 , bgColor4 }) {
                        
           </div>
 
-          <div className=' w-[3000px] flex h-24 border-y border-lightGray' >
+          <div className=' w-[3500px] flex h-24 border-y border-lightGray' >
               <div className='absolute mx-4 my-2 text-white z-10 stylebox3' >
                         <div className={`h-full w-full ${show3 ? 'ml-32' : 'ml-0'} duration-300 absolute rounded-full flex items-center justify-end px-4 py-2 `} style={{ backgroundImage : bgColor3, opacity : 0.6}}>
                               <p>Surgery at</p>
@@ -130,7 +130,7 @@ function Data({ bgColor1, bgColor2, bgColor3 , bgColor4 }) {
           </div>
 
           
-          <div className=' w-[3000px] flex h-24 border-y border-lightGray z-50 ' >
+          <div className=' w-[3500px] flex h-24 border-y border-lightGray z-50 ' >
           <div className='absolute mx-4 my-2 text-white z-10 stylebox4' >
                         <div className={`h-full w-full ${show4 ? 'ml-32' : 'ml-0'} duration-300 absolute rounded-full flex items-center justify-end px-4 py-2 `} style={{ backgroundImage : bgColor4, opacity : 0.6}}>
                               <p>Surgery at</p>
