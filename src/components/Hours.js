@@ -116,11 +116,11 @@ export default function Hours() {
   return (
      <div className='flex horizontal-scroll-wrapper h-[520px] z-40 w-11/12 mx-auto  '  > 
         <div className=''>
-                <div className='fixed top-[120px] bg-white left-5 z-10 flex w-20 h-20'>
+                <div className='fixed top-[110px] bg-white left-5 z-10 flex w-20 h-20'>
                   <div className='shadow-md bg-white rounded-full p-1 absolute'>
                       <MdOutlineKeyboardDoubleArrowLeft size={20} color='#5156be'/>
                   </div>
-                  <h3 className='text-2xl text-gray-700 ml-10 '>Jan</h3>
+                  <h3 className='text-md text-gray-700 ml-10 sm:text-2xl'>Jan</h3>
                 </div>
                 <div className='flex flex-col px-10 ' >
        
@@ -147,11 +147,11 @@ export default function Hours() {
        
                 </div>
               
-                <div className='fixed top-[120px] right-5 z-10 flex flex-row-reverse bg-white'>
+                <div className='fixed top-[110px] right-5 z-10 flex flex-row-reverse bg-white'>
                   <div className='shadow-md bg-white rounded-full p-1 absolute'>
                       <MdOutlineKeyboardDoubleArrowRight size={20} color='#5156be'/>
                   </div>
-                  <h3 className='text-2xl text-gray-700 mr-10 '>Mar</h3> 
+                  <h3 className='text-md text-gray-700 mr-10 sm:text-2xl '>Mar</h3> 
                 </div>
         
          </div> 
