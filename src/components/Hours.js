@@ -116,7 +116,7 @@ export default function Hours() {
   return (
      <div className='flex horizontal-scroll-wrapper h-[520px] z-40 w-full mx-auto   '  > 
         <div className=''>
-                <div className='fixed top-[105px] bg-white  flex w-20 h-20'>
+                <div className='fixed top-[99.9px] bg-white  flex w-20 h-20'>
                   <div className='shadow-md bg-white rounded-full p-1 absolute'>
                       <MdOutlineKeyboardDoubleArrowLeft size={20} color='#5156be'/>
                   </div>
@@ -147,7 +147,7 @@ export default function Hours() {
        
                 </div>
               
-                <div className='fixed top-[105px] right-5 z-10 flex flex-row-reverse bg-white'>
+                <div className='fixed top-[99.9px] right-5 z-10 flex flex-row-reverse bg-white'>
                   <div className='shadow-md bg-white rounded-full p-1 absolute'>
                       <MdOutlineKeyboardDoubleArrowRight size={20} color='#5156be'/>
                   </div>
