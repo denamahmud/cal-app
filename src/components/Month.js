@@ -152,7 +152,7 @@ export default function Month() {
  }
 
   return (
-    <div className=" horizontal-scroll-wrapper z-50  px-1"  id="slider2" onDragStart={grapping1 } draggable  draggable >
+    <div className=" horizontal-scroll-wrapper z-50  px-1"  id="slider2" onDragStart={grapping1 } draggable   >
     
           {
     
