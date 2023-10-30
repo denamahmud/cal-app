@@ -143,7 +143,7 @@ export default function Month() {
     var slider = document.getElementById('slider2')
     slider.scrollLeft = slider.scrollLeft + 500
 
-    if(slider.scrollLeft >= 1200){
+    if(slider.scrollLeft >= 500){
         slider.scrollLeft = slider.scrollLeft - 500
     }
 
