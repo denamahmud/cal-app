@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  overflow-y: hidden;
+}
+
+ .horizontal-scroll-wrapper {
+      display: flex; 
+      cursor: grab;
+      overflow-x: scroll  
+  
+} 
+ 
+ 
+.horizontal-scroll-wrapper::-webkit-scrollbar{
+     width: 0;
+}  
+ 
+ 
+.stylebox1{
+  width: 456px; left: 150.552px ; z-index: 10000;
+}
+.stylebox2{
+  width: 456px; left: 1960.552px  ; z-index: 1000;
+}
+.stylebox3{
+  width: 350px; left: 750.552px  ; z-index: 1000;
+}
+.stylebox4{
+  width: 456px; left: 20.552px  ; z-index: 1000;
+}
+ 
+
+ 
