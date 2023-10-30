@@ -4,10 +4,16 @@ import { MdOutlineKeyboardDoubleArrowLeft, MdOutlineKeyboardDoubleArrowRight } f
 
 export default function Hours() {
 
- 
+  const colors =  ['linear-gradient(to left, rgb(141, 186, 255), rgb(83, 144, 235))',
+  'linear-gradient(to left, rgb(228, 234, 243), rgb(171, 183, 201))',
+  'linear-gradient(to left, rgb(249, 153, 160), rgb(232, 80, 91))',
+  'linear-gradient(to left, rgb(132, 137, 255), rgb(81, 86, 190))',
+  'linear-gradient(to left, rgb(255, 207, 114), rgb(255, 187, 56))',
+  ]
+
  
 
-  const [bgColor1, setBgColor1] = useState('linear-gradient(to left, rgb(141, 186, 255), rgb(83, 144, 235))')  
+  const [bgColor1, setBgColor1] = useState('linear-gadient(to left, rgb(132, 137, 255), rgb(81, 86, 190) )')  
   const [bgColor2, setBgColor2] = useState('linear-gradient(to left, rgb(228, 234, 243), rgb(171, 183, 201))')  
   const [bgColor3, setBgColor3] = useState('linear-gradient(to left, rgb(255, 207, 114), rgb(255, 187, 56))')  
   const [bgColor4, setBgColor4] = useState('linear-gradient(to left, rgb(132, 137, 255), rgb(81, 86, 190))')  
@@ -16,13 +22,7 @@ export default function Hours() {
  
 
   useEffect(() => {
-    let colors =  ['linear-gradient(to left, rgb(141, 186, 255), rgb(83, 144, 235))',
-    'linear-gradient(to left, rgb(228, 234, 243), rgb(171, 183, 201))',
-    'linear-gradient(to left, rgb(249, 153, 160), rgb(232, 80, 91))',
-    'linear-gradient(to left, rgb(132, 137, 255), rgb(81, 86, 190))',
-    'linear-gradient(to left, rgb(255, 207, 114), rgb(255, 187, 56))',
-    ]
-
+ 
       const changeBgColor = () => {
     
         setBgColor1(colors[Math.floor(Math.random() * colors.length)])      

@@ -36,7 +36,7 @@ function Data({ bgColor1, bgColor2, bgColor3 , bgColor4 }) {
                               <p>8PM</p>
                         </div>
 
-                        <div className={`relative flex items-center justify-between px-4 py-2 rounded-full  `} style={{ backgroundimg : bgColor1}}>
+                        <div className={`relative flex items-center justify-between px-4 py-2 rounded-full  `} style={{ backgroundImage : bgColor1}}>
                                   <div className='flex items-center gap-4'>  
                                             <div className='w-16 h-16 overflow-hidden rounded-full'>
                                                 <Image src={image} alt='image'/>
