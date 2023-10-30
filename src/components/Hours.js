@@ -120,7 +120,7 @@ export default function Hours() {
                   <div className='shadow-md bg-white rounded-full p-1 absolute'>
                       <MdOutlineKeyboardDoubleArrowLeft size={20} color='#5156be'/>
                   </div>
-                  <h3 className='text-md text-gray-700 ml-10 sm:text-2xl'>Jan</h3>
+                  <h3 className='text-2xl text-gray-700 ml-10 sm:text-md'>Jan</h3>
                 </div>
                 <div className='flex flex-col px-10 ' >
        
@@ -151,7 +151,7 @@ export default function Hours() {
                   <div className='shadow-md bg-white rounded-full p-1 absolute'>
                       <MdOutlineKeyboardDoubleArrowRight size={20} color='#5156be'/>
                   </div>
-                  <h3 className='text-md text-gray-700 mr-10 sm:text-2xl '>Mar</h3> 
+                  <h3 className='text-2xl text-gray-700 mr-10 sm:text-md '>Mar</h3> 
                 </div>
         
          </div> 
