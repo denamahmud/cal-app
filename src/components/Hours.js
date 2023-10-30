@@ -114,9 +114,9 @@ export default function Hours() {
   
  
   return (
-     <div className='flex horizontal-scroll-wrapper h-[520px] z-40 w-11/12 mx-auto  '  > 
+     <div className='flex horizontal-scroll-wrapper h-[520px] z-40 w-full mx-auto bg-black '  > 
         <div className=''>
-                <div className='fixed top-[110px] bg-white left-5 z-10 flex w-20 h-20'>
+                <div className='fixed top-[100px] bg-white   flex w-20 h-20'>
                   <div className='shadow-md bg-white rounded-full p-1 absolute'>
                       <MdOutlineKeyboardDoubleArrowLeft size={20} color='#5156be'/>
                   </div>
@@ -126,7 +126,7 @@ export default function Hours() {
        
                     <div className='  items-center gap-4 px-4 my-4 h-full w-full '>
                       
-                          <div className='flex mt-5'>
+                          <div className='flex  '>
                             
                               {
                                 hours.map((item, index) => {
@@ -147,7 +147,7 @@ export default function Hours() {
        
                 </div>
               
-                <div className='fixed top-[110px] right-5 z-10 flex flex-row-reverse bg-white'>
+                <div className='fixed top-[100px] right-5 z-10 flex flex-row-reverse bg-white'>
                   <div className='shadow-md bg-white rounded-full p-1 absolute'>
                       <MdOutlineKeyboardDoubleArrowRight size={20} color='#5156be'/>
                   </div>
