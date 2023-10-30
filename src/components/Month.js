@@ -136,24 +136,23 @@ export default function Month() {
  const [activeId, setActiveId] = useState()
 
 
+ 
+
  const grapping1 = () => {
   
     var slider = document.getElementById('slider2')
     slider.scrollLeft = slider.scrollLeft + 500
-     
 
- }
- const grapping2 = () => {
-  
-    var slider = document.getElementById('slider2')
-    slider.scrollLeft = slider.scrollLeft - 100
+    if(slider.scrollLeft >= 1200){
+        slider.scrollLeft = slider.scrollLeft - 500
+    }
 
 
     
  }
 
   return (
-    <div className=" horizontal-scroll-wrapper z-50  px-1"  id="slider2" onDragEnd={grapping2} onDragStart={grapping1}  draggable >
+    <div className=" horizontal-scroll-wrapper z-50  px-1"  id="slider2" onDragStart={grapping1 } draggable  draggable >
     
           {
     
