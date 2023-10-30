@@ -6,14 +6,14 @@ import Month from '../components/Month'
 export default function Home( ) {
  
   return (
-    <> 
+    <div className='bg-white px-5'> 
      
           <Month/> 
            <Hours/> 
            <Items/>
       
 
-    </> 
+    </div> 
   )   
 }
 
