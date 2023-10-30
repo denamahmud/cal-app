@@ -143,10 +143,17 @@ export default function Month() {
      
 
  }
- 
+ const grapping2 = () => {
+  
+    var slider = document.getElementById('slider')
+    slider.scrollLeft = slider.scrollLeft - 500
+
+
+    
+ }
 
   return (
-    <div className=" horizontal-scroll-wrapper z-50  px-1"  id="slider2" onDragStart={grapping1}  draggable >
+    <div className=" horizontal-scroll-wrapper z-50  px-1"  id="slider2" onDragEnd={grapping2} onDragStart={grapping1}  draggable >
     
           {
     

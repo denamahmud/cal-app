@@ -121,9 +121,18 @@ export default function Hours() {
 
      
   }
+
+  const grapping2 = () => {
+  
+    var slider = document.getElementById('slider')
+    slider.scrollLeft = slider.scrollLeft - 500
+
+
+    
+ }
  
   return (
-     <div id='slider' className='flex horizontal-scroll-wrapper   cursor-grab overflow-x-scroll scroll scroll-smooth h-[520px] z-40 w-full mx-auto' onDragStart={grapping1}  draggable> 
+     <div id='slider' className='flex horizontal-scroll-wrapper   cursor-grab overflow-x-scroll scroll scroll-smooth h-[520px] z-40 w-full mx-auto' onDragStart={grapping1} onDragEnd={grapping2}  draggable> 
         <div >
                 <div className='fixed top-[99.9px] bg-white  flex w-20 h-20'>
                   <div className='shadow-md bg-white rounded-full p-1 absolute'>
