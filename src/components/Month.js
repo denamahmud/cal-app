@@ -136,8 +136,17 @@ export default function Month() {
  const [activeId, setActiveId] = useState()
 
 
+ const grapping1 = () => {
+  
+    var slider = document.getElementById('slider2')
+    slider.scrollLeft = slider.scrollLeft + 500
+     
+
+ }
+ 
+
   return (
-    <div className=" horizontal-scroll-wrapper z-50   px-1">
+    <div className=" horizontal-scroll-wrapper z-50  px-1"  id="slider2" onDragStart={grapping1}  draggable >
     
           {
     

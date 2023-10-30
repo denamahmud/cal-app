@@ -113,9 +113,18 @@ export default function Hours() {
 
   
  
+   const grapping1 = () => {
+  
+     var slider = document.getElementById('slider')
+     slider.scrollLeft = slider.scrollLeft + 500
+
+
+     
+  }
+ 
   return (
-     <div className='flex horizontal-scroll-wrapper h-[520px] z-40 w-full mx-auto   '  > 
-        <div className=''>
+     <div id='slider' className='flex horizontal-scroll-wrapper   cursor-grab overflow-x-scroll scroll scroll-smooth h-[520px] z-40 w-full mx-auto' onDragStart={grapping1}  draggable> 
+        <div >
                 <div className='fixed top-[99.9px] bg-white  flex w-20 h-20'>
                   <div className='shadow-md bg-white rounded-full p-1 absolute'>
                       <MdOutlineKeyboardDoubleArrowLeft size={20} color='#5156be'/>
@@ -124,7 +133,7 @@ export default function Hours() {
                 </div>
                 <div className='flex flex-col px-10 ' >
        
-                    <div className='  items-center gap-4 px-4 my-4 h-full w-full '>
+                    <div className='  items-center gap-4 px-4 my-4 h-full w-full ' >
                       
                           <div className='flex  '>
                             
