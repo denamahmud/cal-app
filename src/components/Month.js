@@ -138,15 +138,16 @@ export default function Month() {
 
  
 
+ 
  const grapping1 = () => {
   
-    var slider = document.getElementById('slider2')
+    var slider = document.getElementById('slider')
     slider.scrollLeft = slider.scrollLeft + 500
 
-    if(slider.scrollLeft >= 500){
-        slider.scrollLeft = slider.scrollLeft - 500
-    }
 
+    if( slider.scrollLeft  > 1400 ){
+     slider.scrollLeft = slider.scrollLeft - 1200
+    }
 
     
  }

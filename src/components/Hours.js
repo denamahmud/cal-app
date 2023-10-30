@@ -118,14 +118,14 @@ export default function Hours() {
      var slider = document.getElementById('slider')
      slider.scrollLeft = slider.scrollLeft + 500
 
-     if(slider.scrollLeft >= 1200){
-         slider.scrollLeft = slider.scrollLeft - 500
+
+     if( slider.scrollLeft  > 1400 ){
+      slider.scrollLeft = slider.scrollLeft - 1200
      }
-
-
+ 
      
   }
-
+  
  
  
   return (
